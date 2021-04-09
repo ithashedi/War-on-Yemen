@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      ScrollReveal().reveal(".animate");
+    </script>
+    <script type="text/javascript" src="/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>War on Yemen</title>
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <section class="chapters">
+      <div class="slide-container">
+        <div class="slide" id="slide-1">
+          <div class="span animate">
+            <img
+              style="border-radius: 30px; width: 700px"
+              src="/photos/Refugees.png"
+            />
+            <h1
+              id="chap1"
+              style="color: white; text-align: center; font-size: smaller"
+            >
+              "A total of four million people have been displaced from their
+              homes"
+            </h1>
+          </div>
+        </div>
+        <div class="slide" id="slide-2">
+          <div class="span animate">
+            <img
+              style="border-radius: 30px; width: 700px"
+              src="/photos/kids.png"
+            />
+            <h1
+              id="chap1"
+              style="color: white; text-align: center; font-size: smaller"
+            >
+              "One child every ten minutes dies of a preventable disease"
+            </h1>
+          </div>
+        </div>
+        <div class="slide" id="slide-3">
+          <div class="span animate">
+            <img
+              style="border-radius: 30px; width: 700px"
+              src="/photos/aid needed.png"
+            />
+            <h1
+              id="chap1"
+              style="color: white; text-align: center; font-size: smaller"
+            >
+              "20 million people need humanitarian aid" <br />
+            </h1>
+          </div>
+        </div>
+        <div class="slide" id="slide-4">
+          <div class="span animate">
+            <img
+              style="border-radius: 30px; width: 700px"
+              src="/photos/water.png"
+            />
+            <h1
+              id="chap1"
+              style="color: white; text-align: center; font-size: smaller"
+            >
+              "15 million need water and sanitation support"<br />
+            </h1>
+          </div>
+        </div>
+        <div class="slide" id="slide-5">
+          <div class="span animate">
+            <img
+              style="border-radius: 30px; width: 700px"
+              src="/photos/deaths.png"
+            />
+            <h1
+              id="chap1"
+              style="color: white; text-align: center; font-size: smaller"
+            >
+              "More than 100,000 people have been killed"<br />
+            </h1>
+          </div>
+        </div>
+      </div>
+      <ul
+        style="list-style: none; line-height: 61px; font-size: 29px"
+        class="bullets"
+      >
+        <li>
+          <a
+            style="text-decoration: none; color: white"
+            class="active"
+            href="#slide-1"
+            >Displacement</a
+          >
+        </li>
+        <li>
+          <a style="text-decoration: none; color: white" href="#slide-2"
+            >Diseases</a
+          >
+        </li>
+        <li>
+          <a style="text-decoration: none; color: white" href="#slide-3"
+            >Aid Need</a
+          >
+        </li>
+        <li>
+          <a style="text-decoration: none; color: white" href="#slide-4"
+            >Water</a
+          >
+        </li>
+        <li>
+          <a style="text-decoration: none; color: white" href="#slide-5"
+            >Deaths</a
+          >
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
+
+<script>
+  new TypeIt("#simpleUsage", {
+    strings: "The World's Worst Humanitarian Crisis",
+    speed: 150,
+    loop: true,
+  }).go();
+</script>
